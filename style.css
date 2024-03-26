@@ -1,6 +1,10 @@
 #img1{
-    height:450px ;
+    height:550px ;
     width: 100%;
+}
+
+.img2{
+    background-image:  url(OLG1.jpg);
 }
 
 .main{
@@ -13,6 +17,10 @@
     text-align: center;
     font-family: sans-serif;
     color: white;
+}
+
+.grp2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grp{
@@ -41,3 +49,6 @@
     clear: both;
 }
 
+.carousel-item{
+    transition: 1s;
+}

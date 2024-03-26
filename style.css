@@ -1,5 +1,5 @@
 #img1{
-    height:550px ;
+    height:400px ;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@
     text-align: center;
 }
 .container{
-    background-color: #8A6056;
+    /* background-color: #8A6056; */
     /* padding: 20px; */
 }
  
@@ -59,4 +59,21 @@
 
 .comp1{
     text-align: center;
+}
+
+.box1{
+    text-align: center;
+    color: #fff;
+}
+
+.foot{
+    color: #fff;
+}
+
+.bdy{
+ background-color: gray;
+}
+
+.cont{
+    color: #fff;
 }

@@ -14,3 +14,30 @@
     font-family: sans-serif;
     color: white;
 }
+
+.grp{
+    color: white;
+    text-align: center;
+}
+.container{
+    background-color: #8A6056;
+    /* padding: 20px; */
+}
+ 
+.box{
+    width: calc(25% - 24px);
+    border: 2px solid lightsalmon;
+    color: white;
+    background-color: #8A6056;
+    padding: 20px;
+    line-height: 1.4em;
+} 
+
+.left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+

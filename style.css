@@ -13,7 +13,7 @@
 }
 
 .grp1{
-    background-color:#8A6056;
+    background-color:gray;
     text-align: center;
     font-family: sans-serif;
     color: white;
@@ -51,4 +51,12 @@
 
 .carousel-item{
     transition: 1s;
+}
+
+.comp{
+    text-align: center;
+}
+
+.comp1{
+    text-align: center;
 }

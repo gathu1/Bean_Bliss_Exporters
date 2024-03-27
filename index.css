@@ -1,0 +1,56 @@
+.navbar-custom {
+    background-color:#343a40;
+  }
+
+#img1{
+    height:460px ;
+    width: 100%;
+}
+
+.mainc{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main{
+    /* margin: 5px 5px; */
+    /* padding: 5px 5px; */
+}
+
+.grp1{
+    background-color:#343a40;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.comp{
+    text-align: center;
+}
+
+.line{
+    border: solid 2px black;
+}
+
+.grp2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.why{
+    text-align: center;
+}
+
+.comp1{
+    text-align: center;
+}
+
+
+
+
+

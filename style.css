@@ -7,6 +7,17 @@
     background-image:  url(OLG1.jpg);
 }
 
+.imgf{
+    align-items: center;
+}
+
+.line{
+    border: solid 2px black;
+}
+
+.cus{
+    text-align: center;
+}
 .main{
     /* margin: 5px 5px; */
     /* padding: 5px 5px; */
@@ -80,4 +91,23 @@
 .caroab{
     width: 80%;
     height: 300px;
+}
+
+.ali{
+    text-align: center;
+}
+
+.carousel-item{
+    height: 32rem;
+    align-items: center;
+    position: static;
+}
+
+.mtext{
+    position: static;
+    float: unset;
+}
+
+.why{
+    text-align: center;
 }

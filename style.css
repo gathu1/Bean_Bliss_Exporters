@@ -34,9 +34,9 @@
  
 .box{
     width: calc(25% - 24px);
-    border: 2px solid lightsalmon;
+    border: 2px solid lightgray;
     color: white;
-    background-color: #8A6056;
+    background-color: gray;
     padding: 20px;
     line-height: 1.4em;
 } 

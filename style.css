@@ -104,10 +104,10 @@
     
 }
 
-.mtext{
+/* .mtext{
     position: static;
     
-}
+} */
 
 .why{
     text-align: center;
@@ -140,3 +140,20 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.side-by-side-image {
+    float: left; /* Align images side by side */
+    margin-right: 62px; /* Add space between the images */
+  }
+  
+  /* Clear floats after the images */
+  .image-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+  .side2{
+height: 200px;
+
+  } 

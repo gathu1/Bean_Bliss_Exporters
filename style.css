@@ -1,5 +1,5 @@
 #img1{
-    height:400px ;
+    height:460px ;
     width: 100%;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .grp1{
-    background-color:gray;
+    background-color:#343a40;
     text-align: center;
     font-family: sans-serif;
     color: white;
@@ -99,15 +99,24 @@
 
 .carousel-item{
     height: 32rem;
+    width: 100%;
     align-items: center;
-    position: static;
+    
 }
 
 .mtext{
     position: static;
-    float: unset;
+    
 }
 
 .why{
     text-align: center;
+}
+
+.navbar-custom {
+    background-color:#343a40;
+  }
+
+.mainc{
+    
 }

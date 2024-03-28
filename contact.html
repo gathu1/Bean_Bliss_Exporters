@@ -54,56 +54,26 @@
     <div class="heading mt-3 mb-5 text-center text-info ">
       <h1 class="cont">Contact Us</h1>
     </div>
-    <!-- <div class="container font-family-base fw-bold sticky-top  ">
-      <form action="https://formspree.io/f/xbjnzdjz" method="POST">
-        <div class="row">
-          <div class="col">
-            <label for="exampleInputEmail1" class="form-label mt-3 " name="fname">First Name *</label>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-          </div>
-          <div class="col">
-            <label for="exampleInputEmail1" class="form-label mt-3" name="lname">Last Name *</label>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-          </div>
-        </div>
-
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label mt-3" name="email">Email address*</label>
-          <input type="email" class="form-control" placeholder="Enter Email..." id="exampleInputEmail1"
-            aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputSubject" class="form-label mt-3" name="subject">Subject*</label>
-          <input type="subject" class="form-control " placeholder="Enter Subject..." id="exampleInputSubject">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputMessage" class="form-label mt-3" name="message">Message*</label>
-          <textarea class="form-control" placeholder="Enter Message..." id="exampleInputMessage" rows="3"></textarea>
-        </div>
-        <button type="button" class="link-sumit"> <a href="#" class="Submit btn">Submit</a> </button>
-      </form>
-    </div> -->
-    
      <div class="container font-family-base fw-bold sticky-top  ">
       <form action="https://formspree.io/f/xbjnzdjz" method="POST" >
+        <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
         <div class="row">
           <div class="col">
-            <label for="exampleInputPassword1" class="form-label" name="Name">First Name</label>
+            <label for="exampleInputPassword1" class="form-label mt-3" name="Name">First Name</label>
             <input type="text" class="form-control bg-body-tertiary" placeholder="First name" aria-label="First name" required name="fName">
           </div><br>
           <div class="col">
-            <label for="exampleFormControlTextarea1" class="form-label">Last Name</label>
+            <label for="exampleFormControlTextarea1" class="form-label mt-3">Last Name</label>
             <input type="text" class="form-control bg-body-tertiary" placeholder="Last name" aria-label="Last name" required name="lName">
           </div><br>
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label" placeholder="Your email...">Email address</label>
+          <label for="exampleInputEmail1" class="form-label mt-3" placeholder="Your email...">Email address</label>
           <input type="email" class="form-control bg-body-tertiary" id="exampleInputEmail1" aria-describedby="emailHelp" required name="Message">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div><br>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label" name="Message">Subject</label>
+          <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Subject</label>
           <textarea class="form-control bg-body-tertiary" id="exampleFormControlTextarea1" rows="6" placeholder="Message..." required name="Text"></textarea>
         </div><br>
         <div class="d-grid gap-2">
@@ -120,6 +90,7 @@
               class="fa-brands fa-instagram"></i></a> | <a href=""><i class="fa-brands fa-x-twitter"></i></a></p>
       </div>
     </footer>
+    <script src="contact.js"></script>
   </div>
 </body>
 

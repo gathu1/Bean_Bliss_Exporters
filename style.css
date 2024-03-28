@@ -54,6 +54,7 @@
 
 .left{
     float: left;
+    margin-right: 20px;
 }
 
 .clear{
@@ -157,3 +158,11 @@
 height: 200px;
 
   } 
+
+  /* .fa-brands{
+    color: white;
+  } */
+
+  .down{
+    margin-bottom: 100px;
+  }

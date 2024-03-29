@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color:#343a40;
+  }
+
+.mainc{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ali{
+    text-align: center;
+}
+
+.image-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.side-by-side-image {
+    float: left; /* Align images side by side */
+    margin-right: 62px; /* Add space between the images */
+  }
+
+.side2{
+    height: 200px;
+    
+      }
+
+.line{
+    border: solid 2px black;
+}
+
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}

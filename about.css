@@ -15,6 +15,24 @@
     font-style: normal; */
 }
 
+.carousel-item{
+    height: 32rem;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.caroab{
+    width: 80%;
+    height: 300px;
+}
+
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 .mainc{
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -32,4 +50,9 @@
 
 .line{
     border: solid 2px black;
+}
+
+.caroab{
+    width: 80%;
+    height: 300px;
 }

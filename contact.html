@@ -10,7 +10,15 @@
   <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+<script type="text/javascript">
+  (function(){
+    emailjs.init('J4ho47tIstTxZVWIw');
+  })();
+  
+</script>
 </head>
 
 <body class="bdy">
@@ -55,29 +63,29 @@
       <h1 class="cont">Contact Us</h1>
     </div>
      <div class="container font-family-base fw-bold sticky-top  ">
-      <form action="https://formspree.io/f/xbjnzdjz" method="POST" >
+      <form  >
         <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
         <div class="row">
           <div class="col">
             <label for="exampleInputPassword1" class="form-label mt-3" name="Name">First Name</label>
-            <input type="text" class="form-control bg-body-tertiary" placeholder="First name" aria-label="First name" required name="fName">
+            <input type="text" class="form-control bg-body-tertiary" id="fname" placeholder="First name" aria-label="First name" required name="fName">
           </div><br>
           <div class="col">
             <label for="exampleFormControlTextarea1" class="form-label mt-3">Last Name</label>
-            <input type="text" class="form-control bg-body-tertiary" placeholder="Last name" aria-label="Last name" required name="lName">
+            <input type="text" class="form-control bg-body-tertiary" id="lname" placeholder="Last name" aria-label="Last name" required name="lName">
           </div><br>
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label mt-3" placeholder="Your email...">Email address</label>
-          <input type="email" class="form-control bg-body-tertiary" id="exampleInputEmail1" aria-describedby="emailHelp" required name="Message">
+          <input type="email" class="form-control bg-body-tertiary" id="email_id" aria-describedby="emailHelp" required name="Message">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div><br>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Subject</label>
-          <textarea class="form-control bg-body-tertiary" id="exampleFormControlTextarea1" rows="6" placeholder="Message..." required name="Text"></textarea>
+          <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." required name="Text"></textarea>
         </div><br>
         <div class="d-grid gap-2">
-          <button class="btn btn-primary font-family-base fw-bold sticky-top" type="submit">Submit</button>
+          <button onclick="sendMail()" class="btn btn-primary font-family-base fw-bold sticky-top" type="submit">Submit</button>
         </div>
       </form>
     </div>

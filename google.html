@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+    <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
     <link rel="stylesheet" href="google.css">
 </head>
-<body>
+<body class="bcl">
+    <img src="Assets\OIG1.jpg" alt="" class="bmg">
     <div class="background">
         <div class="shape"></div>
     </div>
@@ -22,8 +24,11 @@
             <input type="password" placeholder="Password">
         </label>
 
-        <button type="submit">Log in</button>
-
+        <div class="input">
+            <button id="google-login-btn"class="google-button">
+                <i class="fab fa-google"></i>Signin with Google
+            </button>
+        </div>
         <!-- <div class="social">
             <div class="go">
                 <i class="fab fa-google"></i>Google
@@ -35,12 +40,6 @@
 
     <div class="form">
         <p>Don't have an account? <a href="#">Create One</a></p>
-    </div>
-
-    <div class="input">
-        <button id="google-login-btn"class="google-button">
-            <i class="fab fa-google"></i>Signin with Google
-        </button>
     </div>
     </form>
     <script src="google.js" defer type="module" ></script>

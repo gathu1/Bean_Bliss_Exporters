@@ -41,7 +41,7 @@
           <a class="nav-link" href="about.html"><strong>ABOUT US</strong><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="types.html"><strong>COFFEE TYPES</strong><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="order.html"><strong>ORDER</strong><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="farms.html"><strong>FARMS</strong><span class="sr-only">(current)</span></a>
@@ -54,6 +54,22 @@
         <input class="form-control radius mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
+      <div class="result-box"> 
+
+      </div>
+      <div class="log">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="google.html"> Log in</a></button>
+      </div>
+      <div>
+        <div class="mode">
+        <input type="checkbox" class="checkbox"
+        id="checkbox">
+        <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
     </div>
   </nav>
 
@@ -78,7 +94,8 @@
       <h1 class="cont">Contact Us</h1>
     </div>
      <div class="container font-family-base fw-bold sticky-top  ">
-      <form  >
+      <!-- <form action="https://formspree.io/f/mleqpger" method="POST" > -->
+
         <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
         <div class="row">
           <div class="col">
@@ -86,7 +103,7 @@
             <input type="text" class="form-control bg-body-tertiary" id="fname" placeholder="First name" aria-label="First name" required name="fName">
           </div><br>
           <div class="col">
-            <label for="exampleFormControlTextarea1" class="form-label mt-3">Last Name</label>
+            <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Name">Last Name</label>
             <input type="text" class="form-control bg-body-tertiary" id="lname" placeholder="Last name" aria-label="Last name" required name="lName">
           </div><br>
         </div>
@@ -100,7 +117,7 @@
           <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." required name="Text"></textarea>
         </div><br>
         <div class="d-grid gap-2">
-          <button onclick="sendMail()" class="btn btn-primary font-family-base fw-bold sticky-top" type="submit">Submit</button>
+          <button onclick="sendMail()" class="btn btn-success font-family-base fw-bold sticky-top" type="submit">Submit</button>
         </div>
       </form>
     </div>

@@ -70,4 +70,15 @@ function updateUserProfile(user) {
     document.getElementById("userEmail").textContext = userEmail;
     document.getElementById("userProfilePicture").src = userProfilePicture;
 }
+
+document.getElementById("sign-out-btn").addEventListener("click", function() {
+  // Sign out the user
+  auth.signOut().then(() => {
+      console.log("User signed out successfully.");
+      // Redirect to the sign-in page or any other desired page
+      window.location.href = "../sign-in.html";
+  }).catch((error) => {
+      console.error("Error signing out:", error);
+  });
+})
 updateUserProfile()

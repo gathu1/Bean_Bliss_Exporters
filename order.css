@@ -20,8 +20,7 @@
     pointer-events: none;
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after{ 
+.nav-link:hover::after, .nav-link:focus::after{ 
     opacity: 1;
 }
 
@@ -29,41 +28,6 @@
     margin-left: 20px;
     margin-right: 3px;
 }
-
-input{
-    flex: 1;
-    height: 50px;
-    background: transparent ;
-    border: 0;
-    outline: 0;
-    font-size: 18px;
-    color: #333;
-}
-
-::placeholder{
-    color: #555;
-}
-
-.result-box ul{
-    border-top: 1px solid #999;
-    padding: 15px 10px;
-}
-
-.result-box ul li{
-    list-style: none;
-    border-radius: 3px;
-    padding: 15px 10px;
-    cursor: pointer;
-}
- 
-.result-box ul li:hover{
-    background: #e9f3ff;
-}
-/* 
-.result-box{
-    max-height: 300px;
-    overflow-y: scroll;
-} */
 
 *{
     box-sizing: border-box;
@@ -125,108 +89,65 @@ input{
     color: #f39c12;
 }
 
-/* .result-box ul{
-    border-top: 1px solid #999;
-    padding: 15px 10px;
-}
-
-.result-box ul li{
-    list-style: none;
-    border-radius: 3px;
-    padding: 15px 10px;
-    cursor: pointer;
-}
-
-.result-box ul li:hover{
-    background: #e9f3ff;
-}
-
-.result-box{
-    max-height: 300px;
-    overflow-y: scroll;
-} */
 
 .radius{
     border-radius: 50px;
 }
-
-.carousel-container{
-    width: 1200px;
-    margin: auto;
-    margin-left: 200px;
-}
-
-.caro{
-    margin-top: 200px;
-    /* font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal; */
-}
-
-.carousel-item{
-    height: 32rem;
-    width: 100%;
-    align-items: center;
-    
-}
-
-.caroab{
-    width: 80%;
-    height: 300px;
-}
-
-.margin{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.margn{
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
 
 .mainc{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-.mtext{
-    position: static;
-    
+ 
+.container{
+    background: #292C35;
+    color: #fff;
+    border-radius: 20px;
 }
 
-.cus{
+.cont{
+    color: #fff;
+
+}
+
+.reg{
     text-align: center;
 }
 
-.line{
-    border: solid 2px black;
+.box1{
+    text-align: center;
+    color: #fff;
 }
 
-.caroab{
-    width: 80%;
-    height: 300px;
+.foot{
+    color: #fff;
 }
 
-.carousel-item {
-    transition: transform 0.6s ease-in-out; /* Change duration as needed */
-    /* opacity: 0; */
+.grp{
+    color: white;
+    text-align: center;
 }
 
-.carousel-caption {
-    color: black;
-    font-family: poppin;
-    font-size: x-large;
-    font-weight: 700;
+.box{
+    width: calc(25% - 24px);
+    border: 2px solid lightgray;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    line-height: 1.4em;
+} 
+
+.left{
+    float: left;
+    margin-right: 20px;
 }
 
-.cimg{
-    opacity: 0.6;
-}
+.down{
+    margin-bottom: 100px;
+  }
 
-.contact{
+  .contact{
     background-color: #343a40;
     color: #fff;
     text-align: center;
@@ -249,3 +170,4 @@ input{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+  

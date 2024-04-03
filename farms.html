@@ -1,82 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
-    <link rel="stylesheet" href="farms.css">
-    <script src="https://kit.fontawesome.com/0bf03b29cf.js" crossorigin="anonymous"></script>
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farm</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
+  <link rel="stylesheet" href="farms.css">
+  <script src="https://kit.fontawesome.com/0bf03b29cf.js" crossorigin="anonymous"></script>
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+(function(){
+  emailjs.init('J4ho47tIstTxZVWIw');
+})();
+
+</script>
+</head>
+
 <body>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-        <a class="navbar-brand" href="#">BEAN BLISS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-                <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only" >(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"><strong>ABOUT US</strong><span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="types.html"><strong>COFFEE TYPES</strong><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="farms.html"><strong>FARMS</strong><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html"><strong>CONTACT US</strong><span class="sr-only">(current)</span></a>
-                </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control radius mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+    <a class="navbar-brand" href="#">BEAN BLISS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><strong>ABOUT US</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order.html"><strong>ORDER</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="farms.html"><strong>FARMS</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><strong>CONTACT US</strong><span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control radius mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="result-box">
+
+      </div>
+      <div class="log">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="google.html"> Log in</a></button>
+      </div>
+      <div>
+        <div class="mode">
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
         </div>
-      </nav>
-    <!--// navbar -->
-<div class="mainc">
+      </div>
+    </div>
+  </nav>
+  <!--// navbar -->
+  <div class="mainc">
     <!-- main content -->
-    <div >
+    <div>
       <br><br><br>
       <h3 class="ali">CONNECT WITH FARMERS</h3>
       <P class="ali">purpose beyond profit</P>
-    <hr>
+      <hr>
       <br><br>
       <div class="image-container">
         <img src="Assets\gettyimages-518782849-612x612.jpg" alt="coffee farmer" class="side-by-side-image">
         <img src="Assets\istockphoto-639926202-612x612.jpg" alt="coffee plant" class="side-by-side-image" class="side2">
       </div>
       <br> <br>
-<h4 class="ali">Join Our Journey Towards Exceptional Coffee</h4>
-<hr class="line"> 
-<br><br>
+      <h4 class="ali">Join Our Journey Towards Exceptional Coffee</h4>
+      <hr class="line">
+      <br><br>
       <p class="margin">
 
-        At <strong> BEAN BLISS </strong>, we believe in the art of crafting the perfect cup of coffee. It starts with beans that are nurtured by skilled hands, grown in rich soils, and harvested with care. We’re on a mission to not only bring you the finest coffee but also to ensure that every hand involved in its journey is rewarded fairly.
+        At <strong> BEAN BLISS </strong>, we believe in the art of crafting the perfect cup of coffee. It starts with
+        beans that are nurtured by skilled hands, grown in rich soils, and harvested with care. We’re on a mission to
+        not only bring you the finest coffee but also to ensure that every hand involved in its journey is rewarded
+        fairly.
         <br><br>
-       <strong> Quality That Speaks for Itself </strong> Our commitment to quality is unwavering. We partner with growers who share our passion for coffee excellence. From the lush fields to your morning cup, we ensure that every bean meets the highest standards of taste and aroma.
+        <strong> Quality That Speaks for Itself </strong> Our commitment to quality is unwavering. We partner with
+        growers who share our passion for coffee excellence. From the lush fields to your morning cup, we ensure that
+        every bean meets the highest standards of taste and aroma.
         <br><br>
-        <strong>Fairness in Every Sip </strong>We stand for more than just great coffee; we advocate for fairness. Our partnership program is designed to support coffee producers with fair compensation, ensuring that their dedication and hard work are duly recognized.
+        <strong>Fairness in Every Sip </strong>We stand for more than just great coffee; we advocate for fairness. Our
+        partnership program is designed to support coffee producers with fair compensation, ensuring that their
+        dedication and hard work are duly recognized.
         <br><br>
-        <strong>Grow With Us </strong>We invite you to be a part of this fulfilling journey. Partner with us, and together, we can create a future where every coffee lover can taste the difference and every producer can celebrate the rewards of their labor.
+        <strong>Grow With Us </strong>We invite you to be a part of this fulfilling journey. Partner with us, and
+        together, we can create a future where every coffee lover can taste the difference and every producer can
+        celebrate the rewards of their labor.
         <br><br>
-        <strong>Let’s Raise the Bar for Coffee Together </strong> Connect with us today, and let’s make a difference one bean at a time.</p>
+        <strong>Let’s Raise the Bar for Coffee Together </strong> Connect with us today, and let’s make a difference one
+        bean at a time.
+      </p>
       <br><br>
-        <h5 class="ali"> # we strive to give the farmer their<ins> fair share </ins> not <del>exploit</del> them </h5>
-        <br>
+      <h5 class="ali"> # we strive to give the farmer their<ins> fair share </ins> not <del>exploit</del> them </h5>
+      <br>
     </div>
+    <!-- <div class="container">
+      <div class="heading mt-3 mb-5 text-center text-info ">
+        <h1 class="cont">Sign Up For Farmers Financing</h1>
+      </div>
+      <div class="container font-family-base fw-bold sticky-top  ">
+        <form>
+          <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    
+          <div class="row">
+            <div class="col">
+              <label for="exampleInputPassword1" class="form-label mt-3" name="Name">First Name</label>
+              <input type="text" class="form-control bg-body-tertiary" id="fname" placeholder="First name"
+                aria-label="First name" required name="fName">
+            </div><br>
+            <div class="col">
+              <label for="exampleFormControlTextarea1" class="form-label mt-3">Last Name</label>
+              <input type="text" class="form-control bg-body-tertiary" id="lname" placeholder="Last name"
+                aria-label="Last name" required name="lName">
+            </div><br>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label mt-3" placeholder="Your email...">Email address</label>
+            <input type="email" class="form-control bg-body-tertiary" id="email_id" aria-describedby="emailHelp"
+              required name="Message">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div><br>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Subject</label>
+            <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." required
+              name="Text"></textarea>
+          </div><br>
+          <div class="d-grid gap-2">
+            <button onclick="sendMail()" class="btn btn-primary font-family-base fw-bold sticky-top"
+              type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div> -->
+    <div class="mainc">
+      <!-- Contact -->
+      <div class="container ">
+    
+        <div class="heading mt-3 mb-5 text-center text-info ">
+          <h1 class="cont">Sign Up For Farmers Financing</h1>
+        </div>
+         <div class="container font-family-base fw-bold sticky-top  ">
+          <!-- <form action="https://formspree.io/f/mleqpger" method="POST" > -->
+    
+            <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
+            <div class="row">
+              <div class="col">
+                <label for="exampleInputPassword1" class="form-label mt-3" name="Name">First Name</label>
+                <input type="text" class="form-control bg-body-tertiary" id="fname" placeholder="First name" aria-label="First name" name="fName" required>
+              </div><br>
+              <div class="col">
+                <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Name">Last Name</label>
+                <input type="text" class="form-control bg-body-tertiary" id="lname" placeholder="Last name" aria-label="Last name" name="lName" required>
+              </div><br>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mt-3" placeholder="Your email...">Email address</label>
+              <input type="email" class="form-control bg-body-tertiary" id="email_id" aria-describedby="emailHelp" name="Message" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div><br>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Subject</label>
+              <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." name="Text" required></textarea>
+            </div><br>
+            <div class="d-grid gap-2">
+              <button onclick="sendMail()" class="btn btn-success font-family-base fw-bold sticky-top" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        </div> 
     <div class="contact">
       <div class="row">
         <div class="column">
@@ -94,7 +206,7 @@
         </div>
         <div class="column">
           <h3>Company Info</h3>
-          <p><i class="fa-solid fa-briefcase"></i>  ID no: 23456789</p>
+          <p><i class="fa-solid fa-briefcase"></i> ID no: 23456789</p>
           <p>VAT no: ke23356775</p>
         </div>
       </div>
@@ -108,5 +220,7 @@
     </footer>
     <!--// main content -->
   </div>
+  <script src="farms.js"></script>
 </body>
+
 </html>

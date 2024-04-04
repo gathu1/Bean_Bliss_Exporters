@@ -9,11 +9,11 @@ function sendMail() {
     var params = {
       from_name  : document.getElementById("yname").value,
       email_id : document.getElementById("email_id").value,
-      number : document.getElementById("pnumber").value,
-      message : document.getElementById("cname").value,
+      phone_number : document.getElementById("pnumber").value,
+      company : document.getElementById("cname").value,
       message : document.getElementById("message").value,
     }
-    emailjs.send("service_1p8t0ck", "template_neq8i1j", params).then(function (res) {
+    emailjs.send("service_xtgcoz7", "template_r4x6zap", params).then(function (res) {
       alert("success!" + res.status);
     })
   }

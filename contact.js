@@ -1,7 +1,7 @@
 function sendMail() {
   var params = {
-    from_name1  : document.getElementById("fname").value,
-    from_name2  : document.getElementById("lname").value,
+    from_name  : document.getElementById("fname").value,
+    from_pane  : document.getElementById("lname").value,
     email_id : document.getElementById("email_id").value,
     message : document.getElementById("message").value,
   }

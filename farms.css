@@ -103,6 +103,7 @@
 
 .ali{
     text-align: center;
+    margin-top: 30px;
 }
 
 .image-container::after {
@@ -142,6 +143,8 @@
   background: #343a40;
   border-radius: 25px;
   color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .form-control{

@@ -104,6 +104,8 @@
     background: #292C35;
     color: #fff;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .cont{
@@ -113,6 +115,7 @@
 
 .reg{
     text-align: center;
+    margin-top: 40px;
 }
 
 .box1{

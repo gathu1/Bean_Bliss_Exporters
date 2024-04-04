@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee types</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="order.css">
-    <script src="https://kit.fontawesome.com/0bf03b29cf.js" crossorigin="anonymous"></script>
 
-    <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"  rel="stylesheet">      
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-          emailjs.init('J4ho47tIstTxZVWIw');
-        })();
-        
-      </script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee types</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="order.css">
+  <script src="https://kit.fontawesome.com/0bf03b29cf.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="Assets\OIG1.jpg" type="image/jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init('J4ho47tIstTxZVWIw');
+    })();
+
+  </script>
 </head>
 
 <body>
-    <!-- navbar -->
-     <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-        <a class="navbar-brand" href="#">BEAN BLISS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only" >(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"><strong>ABOUT US</strong><span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="order.html"><strong>ORDER</strong><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="farms.html"><strong>FARMS</strong><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html"><strong>CONTACT US</strong><span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control radius mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-          <div class="result-box"> 
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+    <a class="navbar-brand" href="#">BEAN BLISS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          </div>
-          <div class="log">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="google.html"> Log in</a></button>
-          </div>
-          <div>
-            <div class="mode">
-            <input type="checkbox" class="checkbox"
-            id="checkbox">
-            <label for="checkbox" class="label">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><strong>ABOUT US</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="order.html"><strong>ORDER</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="farms.html"><strong>FARMS</strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><strong>CONTACT US</strong><span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control radius mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="result-box">
+
+      </div>
+      <div class="log">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="google.html"> Log in</a></button>
+      </div>
+      <div>
+        <div class="mode">
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
         </div>
-        </div>
-      </nav>
-     <!-- navbar  -->
-    <!-- <div class="mainc"> -->
-        <!-- main content -->
-        <!-- <div class="container">
+      </div>
+  </nav>
+  <!-- navbar  -->
+  <!-- <div class="mainc"> -->
+  <!-- main content -->
+  <!-- <div class="container">
             <div class="grp">
                 <h3>We classify our coffees into 8 categories:</h3>
             </div>
@@ -113,92 +115,100 @@
                 <p>Beans with slight defects or irregular sizes.</p>
             </div>
         </div> -->
-    </div> 
-    <div class="mainc">
-      <h2 class="reg">Registration form</h2>
-        <!-- Contact -->
-        <div class="container ">
-      
-          <div class="heading mt-3 mb-5 text-center text-info ">
-            <h1 class="cont">Order</h1>
-          </div>
-           <div class="container font-family-base fw-bold sticky-top  ">
-            <!-- <form action="https://formspree.io/f/mleqpger" method="POST" > -->
-      
-              <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
-                <div>
-                  <label for="exampleInputPassword1" class="form-label mt-3" name="Name">Your name</label>
-                  <input type="text" class="form-control bg-body-tertiary" id="yname" placeholder="Your name" aria-label="Your name" required name="yName">
-                </div><br>
-              <div>
-                <label for="exampleInputEmail1" class="form-label mt-3" >Email address</label>
-                <input type="email" class="form-control bg-body-tertiary" id="email_id" placeholder="Email..." aria-describedby="emailHelp" required name="Message">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div><br>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Number">Phone number</label>
-                <input type="text" class="form-control bg-body-tertiary" id="pnumber" placeholder="Phone number" aria-label="Phone number" required name="Number">
-              </div><br>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Name">Company name</label>
-                <input type="text" class="form-control bg-body-tertiary" id="cname" placeholder="Company name" aria-label="Company name" required name="cName">
-              </div><br>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Other information</label>
-                <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." required name="Text"></textarea>
-              </div><br>
-              <div class="d-grid gap-2">
-                <button onclick="sendMail()" class="btn btn-success font-family-base fw-bold sticky-top" type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-          </div> 
-          PAYMENT METHODS
-        </div>
-        <div class="container ">
-        <div class="card-body bg-body-tertiary font-family-base fw-bold sticky-top">
-          <h5 class="card-title font-family-base fw-bold sticky-top">M-pesa payment</h5>
-          <p class="card-text bg-body-tertiary">
-            <label  for="phoneNumber">Phone Number: </label>
-            <input type="tel" id="phoneNumber" value=""></p>
-            <label  for="amount">Amount: </label>
-            <input type="number" id="amount" value=""><br><br>
-            <button id="triggerPayment" type="button">Pay</button>
-        </div>
+  </div>
+  <div class="mainc">
+    <h2 class="reg">Registration form</h2>
+    <!-- Contact -->
+    <div class="container ">
+
+      <div class="heading mt-3 mb-5 text-center text-info ">
+        <h1 class="cont">Order</h1>
       </div>
-      </div></div>
-    <div class="contact">
-        <div class="row">
-            <div class="column">
-                <h3>Contact</h3>
-                <p><i class="fa-solid fa-phone"></i> +254 123456789</p>
-                <p><i class="fa-solid fa-phone"></i> +254 987654321</p>
-                <br>
-                <p><a href="#"><i class="fa-solid fa-envelope"></i> </a>info@beanbliss.com</p>
-            </div>
-            <div class="column">
-                <h3>Warehouse</h3>
-                <p>kabansora</p>
-                <p><a href=""><i class="fa-solid fa-location-dot"></i> </a> (Area of company)</p><br>Nairobi,Kenya
-                <!-- <p>Nairobi,Kenya</p> -->
-            </div>
-            <div class="column">
-                <h3>Company Info</h3>
-                <p><i class="fa-solid fa-briefcase"></i> ID no: 23456789</p>
-                <p>VAT no: ke23356775</p>
-            </div>
+      <div class="container font-family-base fw-bold sticky-top  ">
+        <!-- <form action="https://formspree.io/f/mleqpger" method="POST" > -->
+
+        <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html" />    -->
+        <div>
+          <label for="exampleInputPassword1" class="form-label mt-3" name="Name">Your name</label>
+          <input type="text" class="form-control bg-body-tertiary" id="yname" placeholder="Your name"
+            aria-label="Your name" required name="yName">
+        </div><br>
+        <div>
+          <label for="exampleInputEmail1" class="form-label mt-3">Email address</label>
+          <input type="email" class="form-control bg-body-tertiary" id="email_id" placeholder="Email..."
+            aria-describedby="emailHelp" required name="Message">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div><br>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Number">Phone number</label>
+          <input type="text" class="form-control bg-body-tertiary" id="pnumber" placeholder="Phone number"
+            aria-label="Phone number" required name="Number">
+        </div><br>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Name">Company name</label>
+          <input type="text" class="form-control bg-body-tertiary" id="cname" placeholder="Company name"
+            aria-label="Company name" required name="cName">
+        </div><br>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label mt-3" name="Message">Other information</label>
+          <textarea class="form-control bg-body-tertiary" id="message" rows="6" placeholder="Message..." required
+            name="Text"></textarea>
+        </div><br>
+        <div class="d-grid gap-2">
+          <button onclick="sendMail()" class="btn btn-success font-family-base fw-bold sticky-top"
+            type="submit">Submit</button>
         </div>
+        </form>
+      </div>
     </div>
-    <footer class="box1">
-        <p>&copy; 2024 BEAN BLISS EXPORTS. All rights reserved.</p>
-        <div class="foot">
-            <p>Follow us on: <a href=""><i class="fa-brands fa-facebook"></i></a> | <a href=""><i
-                        class="fa-brands fa-instagram"></i></a> | <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-            </p>
-        </div>
-    </footer>
-    <!--// main content -->
-<script src="order.js"></script>
+    <!-- PAYMENT METHODS -->
+  </div>
+  <!-- <div class="container ">
+    <div class="card-body bg-body-tertiary font-family-base fw-bold sticky-top">
+      <h5 class="card-title font-family-base fw-bold sticky-top">M-pesa payment</h5>
+      <p class="card-text bg-body-tertiary">
+        <label for="phoneNumber">Phone Number: </label>
+        <input type="tel" id="phoneNumber" value="">
+      </p>
+      <label for="amount">Amount: </label>
+      <input type="number" id="amount" value=""><br><br>
+      <button id="triggerPayment" type="button">Pay</button>
+    </div>
+  </div> -->
+  </div>
+  </div>
+  <div class="contact">
+    <div class="row">
+      <div class="column">
+        <h3>Contact</h3>
+        <p><i class="fa-solid fa-phone"></i> +254 123456789</p>
+        <p><i class="fa-solid fa-phone"></i> +254 987654321</p>
+        <br>
+        <p><a href="#"><i class="fa-solid fa-envelope"></i> </a>info@beanbliss.com</p>
+      </div>
+      <div class="column">
+        <h3>Warehouse</h3>
+        <p>kabansora</p>
+        <p><a href=""><i class="fa-solid fa-location-dot"></i> </a> (Area of company)</p><br>Nairobi,Kenya
+        <!-- <p>Nairobi,Kenya</p> -->
+      </div>
+      <div class="column">
+        <h3>Company Info</h3>
+        <p><i class="fa-solid fa-briefcase"></i> ID no: 23456789</p>
+        <p>VAT no: ke23356775</p>
+      </div>
+    </div>
+  </div>
+  <footer class="box1">
+    <p>&copy; 2024 BEAN BLISS EXPORTS. All rights reserved.</p>
+    <div class="foot">
+      <p>Follow us on: <a href=""><i class="fa-brands fa-facebook"></i></a> | <a href=""><i
+            class="fa-brands fa-instagram"></i></a> | <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+      </p>
+    </div>
+  </footer>
+  <!--// main content -->
+  <script src="order.js"></script>
 </body>
 
 </html>

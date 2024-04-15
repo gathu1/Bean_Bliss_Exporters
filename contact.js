@@ -4,13 +4,12 @@ function sendMail() {
     from_pane  : document.getElementById("lname").value,
     email_id : document.getElementById("email_id").value,
     message : document.getElementById("message").value,
-    rest : document.querySelector('form').reset(),
   }
   emailjs.send("service_1p8t0ck", "template_neq8i1j", params).then(function (res) {
     alert("success!" + res.status);
   })
 
-  
+  document.querySelector('form').reset();
 }
 
 const checkbox =
